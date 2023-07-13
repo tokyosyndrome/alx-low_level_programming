@@ -1,9 +1,8 @@
 #include <stdio.h>
-
+/* Prints a string */
 int main(void)
 {
-	puts("Hello World");
-	
+	puts("Programming is like building a multilingual puzzle");
 	return 0;
 }
 
