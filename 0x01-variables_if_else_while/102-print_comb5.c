@@ -26,15 +26,18 @@ int main(void)
 			{
 				for (y = 1; y < 10; y++)
 				{
-					putchar(48 + i);
-					putchar(48 + j);
-					putchar(32);
-					putchar(48 + k);
-					putchar(48 + y);
-					if (!(i == 9 && j == 8 && k == 9 && y == 9))
+					if (!(i == k && j == y))
 					{
-						putchar(44);
+						putchar(48 + i);
+						putchar(48 + j);
 						putchar(32);
+						putchar(48 + k);
+						putchar(48 + y);
+						if (!(i == 9 && j == 8 && k == 9 && y == 9))
+						{
+							putchar(44);
+							putchar(32);
+						}
 					}
 				}
 			}
