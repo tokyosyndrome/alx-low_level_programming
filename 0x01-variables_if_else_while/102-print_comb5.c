@@ -24,7 +24,7 @@ int main(void)
 		{
 			for (k = 0; k < 10; k++)
 			{
-				for (y = 1; y < 10; y++)
+				for (y = j + 1; y < 10; y++)
 				{
 					if (!(i == k && j == y))
 					{
