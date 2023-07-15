@@ -14,36 +14,33 @@ int main(void)
 
 	int j;
 
-	int k;
+	int start;
 
-	int y;
+	start = 1;
 
-	for (i = 0; i < 10; i++)
+	for (i = 0; i < 100; i++)
 	{
-		for (j = 0; j < 9; j++)
+		for (j = i + 1; j < 100; j++)
 		{
-			for (k = 0; k < 10; k++)
+			if (start == 0)
 			{
-				for (y = j + 1; y < 10; y++)
-				{
-					if (!(i == k && j == y))
-					{
-						putchar(48 + i);
-						putchar(48 + j);
-						putchar(32);
-						putchar(48 + k);
-						putchar(48 + y);
-						if (!(i == 9 && j == 8 && k == 9 && y == 9))
-						{
-							putchar(44);
-							putchar(32);
-						}
-					}
-				}
+				putchar(44);
+				putchar(32);
+
+			}
+
+			putchar(48 + (i / 10));
+			putchar(48 + (i % 10));
+			putchar(32);
+			putchar(48 + (j / 10));
+			putchar(48 + (j % 10));
+			if (start)
+			{
+				start = 0;
 			}
 		}
-
 	}
+
 	putchar('\n');
 	return (0);
 }
