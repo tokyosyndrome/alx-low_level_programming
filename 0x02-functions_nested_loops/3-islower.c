@@ -2,11 +2,11 @@
 #include "main.h"
 #include <ctype.h>
 /**
-*_islowe - function that returns if a character is lowercase
-*@void: void
+*_islower - function that returns if a character is lowercase
+*@int: int
 (*
 *this function prints a message and returns zero)?
-*Return: returns zero
+*Return: returns zero or one
 */
 
 int _islower(int c)
