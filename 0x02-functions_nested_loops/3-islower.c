@@ -3,7 +3,7 @@
 #include <ctype.h>
 /**
 *_islower - function that returns if a character is lowercase
-*@int: int
+*@c: inr variable
 (*
 *this function prints a message and returns zero)?
 *Return: returns zero or one
