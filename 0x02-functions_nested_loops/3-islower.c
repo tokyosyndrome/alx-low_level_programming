@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include "main.h"
-#include <ctype.c>
+#include <ctype.h>
 /**
 *_islowe - function that returns if a character is lowercase
 *@void: void
