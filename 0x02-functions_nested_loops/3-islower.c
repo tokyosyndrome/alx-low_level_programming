@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include "main.h"
+/**
+*_islowe - function that returns if a character is lowercase
+*@void: void
+(*
+*this function prints a message and returns zero)?
+*Return: returns zero
+*/
+
+int _islower(int c)
+{
+	return (islower(c));
+}
