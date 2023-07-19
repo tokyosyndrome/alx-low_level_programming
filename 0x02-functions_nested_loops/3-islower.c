@@ -11,7 +11,7 @@
 
 int _islower(int c)
 {
-	if (islower != 0)
+	if (islower(c) != 0)
 	{
 		return (1);
 	}
