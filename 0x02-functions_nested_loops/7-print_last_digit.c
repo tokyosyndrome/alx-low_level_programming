@@ -9,6 +9,7 @@
 *Return: returns zero or one
 */
 int print_last_digit(int c)
-{
-	return (abs(c) % 10);
+{	
+	_putchar('0' + c);
+	return (abs(c % 10));
 }
