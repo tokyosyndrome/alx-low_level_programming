@@ -11,5 +11,5 @@
 
 int _islower(int c)
 {
-	return (islower(c));
+	(islower(c));
 }
