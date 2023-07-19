@@ -12,9 +12,8 @@ void times_table(void)
 	int i;
 
 	int j;
-	
+
 	int start;
-	
 
 	for (i = 0; i < 10; i++)
 	{
@@ -24,7 +23,7 @@ void times_table(void)
 		{
 			int num = i * j;
 
-			if ( start == 0)
+			if (start == 0)
 			{
 				_putchar(',');
 				_putchar(' ');
@@ -40,7 +39,8 @@ void times_table(void)
 			{	if (start == 1)
 				{
 					_putchar(48 + num);
-				}else
+				}
+				else
 				{
 					_putchar(' ');
 					_putchar(48 + num);
