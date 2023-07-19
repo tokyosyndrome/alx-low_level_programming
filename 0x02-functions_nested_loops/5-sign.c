@@ -8,7 +8,7 @@
 *Return: returns zero or one
 */
 int print_sign(int c)
-{	
+{
 	if (c > 0)
 	{
 		_putchar('+');
