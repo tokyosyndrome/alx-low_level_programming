@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
-*main - function that prints a specific message
+*print_alphabet - function that prints a specific message
 *@void: void
 (*
 *this function prints a message and returns zero)?
@@ -9,7 +9,7 @@
 */
 
 void print_alphabet(void)
-{	
+{
 	char i;
 
 	for(i = 'a'; i <= 'z'; i++)
