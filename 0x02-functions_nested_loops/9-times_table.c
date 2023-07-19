@@ -15,10 +15,10 @@ void times_table(void)
 	
 	int start;
 	
-	start = 1;
 
 	for (i = 0; i < 10; i++)
 	{
+		start = 1;
 
 		for (j = 0; j < 10; j++)
 		{
