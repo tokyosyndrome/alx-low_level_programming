@@ -1,5 +1,5 @@
-#include "main.h"
 #include <stdio.h>
+#include "main.h"
 /**
 *main - function that prints a specific message
 *@void: void
@@ -7,9 +7,13 @@
 *this function prints a message and returns zero)?
 *Return: returns zero
 */
-int main(void)
-{
-	print_alphabet();
-	return (0);
-}
 
+void print_alphabet(void)
+{
+	for (i = 'a'; i <= 'z'; i++)
+	{	
+		_putchar(i);
+	}
+
+	_putchar('\n');
+}
