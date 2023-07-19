@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "main.h"
+#include <stdlib.h>
 /**
 *print_last_digit - function that returns a numbe's sign
 *@c: int variable
@@ -9,5 +10,5 @@
 */
 int print_last_digit(int c)
 {
-	return (_abs(c) % 10);
+	return (abs(c) % 10);
 }
