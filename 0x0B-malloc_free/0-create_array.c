@@ -20,12 +20,14 @@ char *create_array(unsigned int size, char c)
 	int *t;
 
 	t = malloc(sizeof(*t) * size);
+	
+	int i;
 
 	for (i=0; i <= size; i++)
 	{
 		t[i] = c;
 	}
 	
-	return *t;
+	return t;
 
 }
