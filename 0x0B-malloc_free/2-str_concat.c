@@ -22,9 +22,9 @@ char *_strconcat(char *s1, char *s2)
 		return (NULL);
 	}
 
-	for (len = 0; s1[len1]; len++)
+	for (len1 = 0; s1[len1]; len1++)
 		;
-	for (len = 0; s2[len2]; len++)
+	for (len2 = 0; s2[len2]; len2++)
 		;
 
 
@@ -42,7 +42,7 @@ char *_strconcat(char *s1, char *s2)
 
 	for (j = 0; j < len2; j++, i++)
 	{
-		catstr[i] = s2[j]
+		catstr[i] = s2[j];
 	}
 	catstr[i] = '\0';
 
