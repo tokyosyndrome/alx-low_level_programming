@@ -12,7 +12,7 @@
 char *_strconcat(char *s1, char *s2)
 {
 	char *catstr;
-	int len;
+	int len1;
 	int len2;
 	int i;
 	int j;
@@ -22,7 +22,7 @@ char *_strconcat(char *s1, char *s2)
 		return (NULL);
 	}
 
-	for (len = 0; s1[len]; len++)
+	for (len = 0; s1[len1]; len++)
 		;
 	for (len = 0; s2[len2]; len++)
 		;
