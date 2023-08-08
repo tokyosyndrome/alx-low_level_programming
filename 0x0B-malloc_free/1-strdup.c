@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
-* _strdup - duplicates string 
+* _strdup - duplicates string
 * @str: str to duplicate
 *
 * Return: NULL or ptr to str location
@@ -19,11 +19,12 @@ char *_strdup(char *str)
 	{
 		return (NULL);
 	}
-	
-	for (len = 0; str[len]; len++);
+
+	for (len = 0; str[len]; len++)
+		;
 
 	dup = malloc((sizeof(char) * len) + 1);
-	
+
 	if (!dup)
 	{
 		return (NULL);
@@ -36,4 +37,4 @@ char *_strdup(char *str)
 	dup[i] = '\0';
 
 	return (dup);
-}	
+}
