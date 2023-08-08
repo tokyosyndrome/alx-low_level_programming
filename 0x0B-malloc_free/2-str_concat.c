@@ -9,7 +9,7 @@
 * Return: NULL or ptr to str location
 */
 
-char *_str_concat(char *s1, char *s2)
+char *str_concat(char *s1, char *s2)
 {
 	char *catstr;
 	int len1;
