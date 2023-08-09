@@ -9,7 +9,7 @@
 * Return: NULL or ptr to grid location
 */
 
-char **alloc_grid(int width, int height)
+int **alloc_grid(int width, int height)
 {
 	int **grid;
 
