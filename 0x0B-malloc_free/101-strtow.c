@@ -3,7 +3,7 @@
 
 /**
  * _strlen - returns legnth of str
- * @s: string 
+ * @s: string
  *
  * Return: length of string
  */
@@ -18,9 +18,9 @@ int _strlen(char *s)
 
 /**
  * copy_word - copies a word from string
- * @str: string 
- * @start: start 
- * @end: end 
+ * @str: string
+ * @start: start
+ * @end: end
  *
  * Return: pointer to word
  */
@@ -41,7 +41,7 @@ char *copy_word(char *str, int start, int end)
 }
 
 /**
- * count_words - counts the number of words 
+ * count_words - counts the number of words
  * @str: string to count
  *
  * Return: number of words
