@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
-* _str_concat - duplicates string
+* str_concat - concatenates string
 * @s1: str1
 * @s2: str2
 * Return: NULL or ptr to str location
