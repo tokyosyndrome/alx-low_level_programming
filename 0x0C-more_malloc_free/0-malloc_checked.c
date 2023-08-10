@@ -1,16 +1,19 @@
 #include <stdio.h>
 #include <stdlib.h>
-
-/*malloc_checked: function that checks malloc fail
+#include "main.h"
+/**
+ * malloc_checked - function that checks malloc fail
  * @b: size of memory
- * RETURN : nothing
+ * Retrun: nothing
  */
 
 void *malloc_checked(unsigned int b)
 {
-	int *mem;
+	void *mem;
 
 	mem = malloc(b);
-	if (!mem)
+	if (mem == NULL)
 		exit(98);
+
+	return (mem);
 }
