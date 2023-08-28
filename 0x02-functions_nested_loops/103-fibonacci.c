@@ -19,6 +19,6 @@ int main(void)
 		if (c % 2 == 0)
 			res += c;
 	}
-	printf("%lu\n", res);
+	printf("%ld\n", res);
 	return (0);
 }
