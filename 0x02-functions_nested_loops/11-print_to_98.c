@@ -13,10 +13,10 @@ void print_to_98(int n)
 	int i = n;
 
 	if (i > 99)
-		for (i; i > 97; i--)
+		for (i = n; i > 97; i--)
 			printf("%d", i);
 	else
-		for (i; i < 99; i++)
+		for (i = n; i < 99; i++)
 			printf("%d", i);
 
 	printf("\n");
