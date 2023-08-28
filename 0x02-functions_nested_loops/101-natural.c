@@ -19,5 +19,5 @@ void main(void)
 		i++;
 	}
 
-	 printf("%d", result);
+	 printf("%d\n", result);
 }
