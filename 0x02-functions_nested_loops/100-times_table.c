@@ -1,19 +1,15 @@
 #include <stdio.h>
 #include "main.h"
 /**
-*times_table - function that returns a numbe's sign
-*@void: void
+*print_times_table - function that returns a numbe's sign
+*@n: void
 (*
 *this function prints a message and returns zero)?
 *Return: returns zero or one
 */
 void print_times_table(int n)
 {
-	int i;
-
-	int j;
-
-	int start;
+	int i, j, start;
 
 	for (i = 0; i <= n; i++)
 	{
@@ -26,18 +22,22 @@ void print_times_table(int n)
 			{
 				_putchar(',');
 				_putchar(' ');
+				_putchar(' ');
 			}
 			if ((num / 10) != 0)
 			{
+				if (num > 99)
+				{
+					_putchar(48 + (num / 100));
+					num = num % 100;
+				}
 				_putchar(48 + (num / 10));
 				_putchar(48 + (num % 10));
 			}
 			else
 			{
 				if (start == 1)
-				{
 					_putchar(48 + num);
-				}
 				else
 				{
 					_putchar(' ');
