@@ -33,18 +33,12 @@ void print_times_table(int n)
 					_putchar(48 + (num / 100));
 					num = num % 100;
 				}
-				_putchar(48 + (num / 10)); 
+				_putchar(48 + (num / 10));
 				_putchar(48 + (num % 10));
 			}
 			else
 			{
-				if (start == 1)
-					_putchar(48 + num);
-				else
-				{
-					_putchar(' ');
-					_putchar(48 + num);
-				}
+				(start == 1) ? _putchar(48 + num) : (_putchar(' '), _putchar(48 + num);
 			}
 			start = 0;
 		}
