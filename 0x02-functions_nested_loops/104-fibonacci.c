@@ -7,7 +7,7 @@
 
 int main(void)
 {
-	long a, b, i, res, start;
+	long int a, b, i, res, start;
 
 	a = 0;
 	b = 1;
@@ -19,7 +19,7 @@ int main(void)
 		b = res;
 		if (start == 0)
 			printf(", ");
-		printf("%ld", res);
+		printf("%lu", res);
 		start = 0;
 	}
 	printf("\n");
