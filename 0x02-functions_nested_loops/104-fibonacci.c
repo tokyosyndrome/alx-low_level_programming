@@ -19,7 +19,7 @@ int main(void)
 		b = res;
 		if (start == 0)
 			printf(", ");
-		printf("%lu", res);
+		printf("%ld", res);
 		start = 0;
 	}
 	printf("\n");
