@@ -38,7 +38,8 @@ void print_times_table(int n)
 			}
 			else
 			{
-				(start == 1) ? _putchar(48 + num) : ((_putchar(' ')), (_putchar(48 + num)));
+				(start == 1) ? _putchar(48 + num) :
+				((_putchar(' ')), (_putchar(48 + num)));
 			}
 			start = 0;
 		}
