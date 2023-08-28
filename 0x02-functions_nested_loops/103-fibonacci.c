@@ -7,7 +7,7 @@
 
 int main(void)
 {
-	long a, b, res, c;
+	int a, b, res, c;
 
 	a = 0;
 	b = 1;
@@ -19,6 +19,6 @@ int main(void)
 		if (c % 2 == 0)
 			res += c;
 	}
-	printf("%ld\n", res);
+	printf("%d\n", res);
 	return (0);
 }
