@@ -22,7 +22,8 @@ void print_times_table(int n)
 			{
 				_putchar(',');
 				_putchar(' ');
-				_putchar(' ');
+				if (num < 100)
+					_putchar(' ');
 			}
 			if ((num / 10) != 0)
 			{
