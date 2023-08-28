@@ -11,20 +11,20 @@
 void print_to_98(int n)
 {
 	int i = n;
-	bool start = true;
+	int start = 1;
 
 	if (i > 99)
 		for (i = n; i > 97; i--)
 			if (start)
 				printf("%d", i);
-				start = false;
+				start = 0;
 			else
 				printf(", %d", i);
 	else
 		for (i = n; i < 99; i++)
 			if (start)
 				printf("%d", i);
-				start = false;
+				start = 0;
 			else
 				printf(", %d", i);
 
