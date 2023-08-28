@@ -5,7 +5,7 @@
  *Return: the sum of numbers
  */
 
-void main(void)
+int main(void)
 {
 	int i, result;
 
@@ -20,4 +20,6 @@ void main(void)
 	}
 
 	 printf("%d\n", result);
+
+	 return (0);
 }
