@@ -11,7 +11,7 @@ int main(void)
 
 	a = 0;
 	b = 1;
-	while (res <= 4000000)
+	while (a <= 4000000 || b <= 4000000)
 	{
 		c = a + b;
 		a = b;
