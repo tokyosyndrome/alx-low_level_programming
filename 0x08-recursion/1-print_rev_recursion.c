@@ -8,7 +8,7 @@
 
 void _print_rev_recursion(char *s)
 {
-	static len;
+	static int len;
 	
 	len = strlen(s);
 	if (*(s + len - 1) == '\n')
