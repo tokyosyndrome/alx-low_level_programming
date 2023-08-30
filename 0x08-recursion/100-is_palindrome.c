@@ -10,7 +10,7 @@ int check_palindrome(char *s, int length)
 {
 	if (*s != s[len])
 		return (0);
-	return (check_palindrome(s + 1, len + 1));
+	return (check_palindrome(s + 1, len - 1));
 	return (1);
 }
 
