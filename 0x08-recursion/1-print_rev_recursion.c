@@ -11,11 +11,11 @@ void _print_rev_recursion(char *s)
 	int len;
 	
 	len = strlen(s);
-	if (*s + len == '\n')
+	if (*s == '\n')
 	{
 		_putchar(*s);
 		return;
 	}
-	_putchar(*(s + len));
+	_putchar(*(s + len - 1));
 	_print_rev_recursion((s - 1));
 }
