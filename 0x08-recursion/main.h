@@ -8,4 +8,6 @@ int _strlen_recursion(char *s);
 int factorial(int n);
 int sqrt_help(int, int);
 int _sqrt_recursion(int);
+int is_prime_number(int n);
+int prime_help(int, int);
 #endif
