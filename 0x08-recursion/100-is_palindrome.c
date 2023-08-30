@@ -3,7 +3,7 @@
 /**
  * check_palindrome - recursively checks if a string is palindrome
  * @s: the string in question
- * @lengt: len of str
+ * @length: len of str
  * Return: 1 if palindrome, 0 if not.
  */
 
