@@ -1,6 +1,7 @@
 #include "main.h"
 
-/** prime_help - helper
+/**
+ * prime_help - helper
  * @n: num to check
  * @i: iterator
  * Return: 0 or 1
@@ -8,9 +9,9 @@
 
 int prime_help(int n, int i)
 {
-	if ( i == n)
+	if (i == n)
 		return (1);
-	if ( n % i == 0)
+	if (n % i == 0)
 		return (0);
 	return (prime_help(n, i + 1));
 }
