@@ -8,9 +8,9 @@
 
 int check_palindrome(char *s, int length)
 {
-	if (*s != *(s + length))
+	if (*s != *(s + length - 1))
 		return (0);
-	return (check_palindrome(s + 1, length - 1));
+	return (check_palindrome(s + 1, length - 2));
 	return (1);
 }
 
@@ -18,6 +18,8 @@ int is_palindrome(char *s)
 {
 	int len;
 
-	len = strlen(s) - 1;
+	if (*s == '\0')
+		return (1);
+	len = strlen(s);
 	return(check_palindrome(s, len));
 }
