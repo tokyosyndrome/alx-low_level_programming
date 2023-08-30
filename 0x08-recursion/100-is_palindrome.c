@@ -8,7 +8,7 @@
 
 int check_palindrome(char *s, int length)
 {
-	if (*s != s[length])
+	if (*s != s[length - 1])
 		return (0);
 	return (check_palindrome(s + 1, length - 1));
 	return (1);
