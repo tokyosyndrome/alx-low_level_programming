@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <string.h>
 /**
  * is_palindrome - recursively checks if a string is palindrome
  * @s: the string in question
@@ -8,9 +8,9 @@
 
 int check_palindrome(char *s, int length)
 {
-	if (*s != s[len])
+	if (*s != s[length])
 		return (0);
-	return (check_palindrome(s + 1, len - 1));
+	return (check_palindrome(s + 1, length - 1));
 	return (1);
 }
 
